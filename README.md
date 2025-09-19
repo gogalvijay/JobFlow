@@ -1,5 +1,3 @@
-printf "POST /job TASK sum 1 2 3 4\n" | nc localhost 8080
-printf "GET /job 1\n" | nc localhost 8080
 
 # JobFlow 🚀
 A **multi-threaded job queue and minimal text-based API server** in **C++17**.
