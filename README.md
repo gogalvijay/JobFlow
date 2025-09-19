@@ -21,7 +21,7 @@ Clone the repository and build with `make`:
 
 ```bash
 git clone https://github.com/yourusername/JobFlow.git
-cd TaskQueue++
+cd JobFlow
 make
 ./job_server
 
