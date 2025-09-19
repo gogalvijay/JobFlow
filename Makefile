@@ -1,7 +1,8 @@
 CXX = g++
 CXXFLAGS = -std=c++17 -pthread -Wall -Wextra -I./src
 
-SRC = src/main.cpp src/JobQueue.cpp src/Worker.cpp src/Server.cpp
+
+SRC = src/main.cpp src/JobQueue.cpp src/Worker.cpp src/Server.cpp src/ThreadPool.cpp
 OBJ = $(SRC:.cpp=.o)
 TARGET = job_server
 
